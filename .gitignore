@@ -1,0 +1,19 @@
+# Ignore all paths by default. The public release contains only these files.
+/*
+!/.gitignore
+!/DATA_SOURCE.md
+!/LICENSE_OR_ATTRIBUTION.md
+!/LIMITATIONS.md
+!/METHODOLOGY.md
+!/PORTFOLIO_CASE_STUDY.md
+!/QUALITY_ASSURANCE_SUMMARY.md
+!/README.md
+!/REPORTING_DEFINITIONS.md
+
+!/assets/
+/assets/*
+!/assets/P001_Portfolio_Case_Study_FINAL.pdf
+
+!/scripts/
+/scripts/*
+!/scripts/verify_fact_kpis.py
