@@ -30,7 +30,7 @@ Candidate sales use TransactionType = Candidate sale and ItemType = Merchandise 
 
 ## 8. Power BI dashboard
 
-Executive Overview, Sales Performance, Customer Analytics and Product Performance present financial, order, purchasing-frequency and product views. The saved product charts, detail table and TopN bindings use Product Display Label v2. Owner-assisted interactive tests and current document approvals are attributed evidence; independent archive/source checks are a separate class. No unverified screenshots are embedded in this case study.
+Executive Overview, Sales Performance, Customer Analytics and Product Performance present financial, order, purchasing-frequency and product views. The saved product charts, detail table and TopN bindings use Product Display Label v2. Project-author-reported interactive tests and current document approvals are attributed evidence; independent archive/source checks are a separate class. Three dashboard preview images are published in the repository; their publication does not establish independent model equivalence.
 
 ## 9. Five principal findings
 
@@ -48,7 +48,7 @@ Investigate customer-identifier capture; obtain original links/reason codes for 
 
 ## 11. Challenges and solutions
 
-Case-insensitive raw SKU collisions required model-safe identity rather than destructive normalization. Empty identifiers required explicit customer eligibility rather than forcing benchmark agreement. Large matching positive/negative entries required parallel official/sensitivity views, not deletion. Partial December and changing saved-file hashes required explicit period/version controls. Toolchain limitations were recorded; owner visual review is not misrepresented as independent automation.
+Case-insensitive raw SKU collisions required model-safe identity rather than destructive normalization. Empty identifiers required explicit customer eligibility rather than forcing benchmark agreement. Large matching positive/negative entries required parallel official/sensitivity views, not deletion. Partial December and changing saved-file hashes required explicit period/version controls. Toolchain limitations were recorded; project-author visual review is not misrepresented as independent automation.
 
 ## 12. Limitations and unresolved questions
 
@@ -56,15 +56,15 @@ The extract covers 1 December 2010–9 December 2011; December 2011 covers only 
 
 All eight exceptions remain disclosed and unresolved: suspected full reversals, unmatched large cancellations, duplicate candidates, missing customer identification, product description conflicts, item classification review, partial reporting period and bad-debt accounting adjustments. Their reporting restrictions are recorded separately. Document approval and accepted uncertainty do not factually close them.
 
-Earlier independent Python source/fact QA reconciled the principal benchmarks and exact four-row sensitivity. Saved PBIX JSON independently establishes label v2 on both product charts, the detail table and all TopN label references. Prior four-page visual/slicer testing and full-period/November live comparisons are owner-reported manual evidence. The owner now reports manual approval of the current 7-page report, 5-page appendix and 4-page dashboard. Assignment 013 performs static file/content checks, not a new rendered visual inspection or live-engine execution.
+Earlier independent Python source/fact QA reconciled the principal benchmarks and exact four-row sensitivity. Saved PBIX JSON independently establishes label v2 on both product charts, the detail table and all TopN label references. Prior four-page visual/slicer testing and full-period/November live comparisons are project-author-reported manual evidence. The project author reports manual approval of the current 7-page report, 5-page appendix and 4-page dashboard. Assignment 013 performs static file/content checks, not a new rendered visual inspection or live-engine execution.
 
 No .bim/.tmdl/DataModelSchema export is available. Compressed model relationships, deployed expressions and every loaded product mapping were not independently extracted. Active many-to-one ProductModelKey/CustomerID/DateKey relationships with single-direction dimension-to-fact filtering are attributed manual evidence. ProductModelKey, not raw ProductKey, is the current product relationship. Historical model guidance is not current implementation guidance.
 
-The current PBIX hash differs from Assignment 010; the three retained product visual definitions were unchanged in Assignment 011B, but no prior DataModel fingerprint exists. Cosmetic-only classification and model equivalence remain unverified. The new document approval does not explicitly bind the earlier live tests to the current PBIX hash. Before any external distribution of the PBIX, record owner confirmation of current-version test coverage/change scope, or perform only the relevant targeted current-model checks. Do not repeat completed source QA merely because the hash changed.
+The current PBIX hash differs from Assignment 010; the three retained product visual definitions were unchanged in Assignment 011B, but no prior DataModel fingerprint exists. Cosmetic-only classification and model equivalence remain unverified. The new document approval does not explicitly bind the earlier live tests to the current PBIX hash. Before any external distribution of the PBIX, record confirmation from the project author of current-version test coverage/change scope, or perform only the relevant targeted current-model checks. Do not repeat completed source QA merely because the hash changed.
 
 ## 13. Deliverables
 
-A four-page dashboard PBIX/PDF, owner-approved 7-page findings PDF with Word companion, owner-approved 5-page technical appendix PDF with Word companion, data/model QA history, a separate clean local handoff, and publication-ready explanatory documents with a portable KPI verifier. This public package includes the [final portfolio case study PDF](assets/P001_Portfolio_Case_Study_FINAL.pdf), supporting documentation and the verifier. The simulated client-handoff deliverables and internal QA records remain separate.
+A four-page dashboard PBIX/PDF, project-author-approved 7-page findings PDF with Word companion, project-author-approved 5-page technical appendix PDF with Word companion, data/model QA history, a separate clean local handoff, and publication-ready explanatory documents with a portable KPI verifier. This public package includes the [final portfolio case study PDF](assets/P001_Portfolio_Case_Study_FINAL.pdf), supporting documentation and the verifier. The simulated client-handoff deliverables and internal QA records remain separate.
 
 ## 14. Skills demonstrated
 

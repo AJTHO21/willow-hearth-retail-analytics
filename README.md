@@ -75,7 +75,7 @@ The complete four-page Power BI report also includes a Sales Performance page, w
 | **Customer Analytics** | Observed repeat purchasing, identification coverage and geographic concentration |
 | **Product Performance** | Sales-value and unit rankings, anomalous transaction sensitivity |
 
-The public repository includes the [five-page illustrated case-study PDF](assets/P001_Portfolio_Case_Study_FINAL.pdf), but **does not currently include separate dashboard screenshots**. The underlying PBIX, transaction data, and internal simulated-client handoff documents are not published.
+The public repository includes the [five-page illustrated case-study PDF](assets/P001_Portfolio_Case_Study_FINAL.pdf) and three standalone dashboard preview images. The underlying PBIX, transaction data, and internal simulated-client handoff documents are not published.
 
 ## Methodology and technical evidence
 
@@ -83,7 +83,7 @@ The public repository includes the [five-page illustrated case-study PDF](assets
 2. **Define eligible transactions.** Separate candidate merchandise sales, signed cancellations and non-merchandise entries using explicit classification rules.
 3. **Reconcile each metric.** Validate totals, orders, identified purchasers, products, units, dates and the exact four-row sensitivity.
 4. **Model and report.** Use fact and dimension tables, DAX and four management-facing Power BI pages. Preserve exact case-sensitive product identity to avoid collisions between raw SKU codes.
-5. **Disclose uncertainty.** Keep eight unresolved exceptions visible and distinguish independently executed QA from owner-reported manual acceptance.
+5. **Disclose uncertainty.** Keep eight unresolved exceptions visible and distinguish independently executed QA from manual acceptance reported by the project author.
 
 **Technical references:** [Full case study](PORTFOLIO_CASE_STUDY.md) · [Methodology](METHODOLOGY.md) · [Reporting definitions](REPORTING_DEFINITIONS.md) · [Quality assurance](QUALITY_ASSURANCE_SUMMARY.md) · [Eight unresolved exceptions and limitations](LIMITATIONS.md).
 
@@ -95,7 +95,7 @@ The included read-only Python verifier requires Python 3.10+ and a matching proc
 python scripts/verify_fact_kpis.py --fact /path/to/P001_fact_transactions.csv
 ```
 
-The verifier checks approved **processed-fact KPIs** and fails on mandatory mismatches. It does **not** reconstruct the complete project from the original workbook or independently certify a running Power BI model. Earlier independent Python reconciliation and saved-visual static checks are documented; live dashboard testing is owner-reported, and complete current-version model equivalence remains unverified. See [QA scope](QUALITY_ASSURANCE_SUMMARY.md).
+The verifier checks approved **processed-fact KPIs** and fails on mandatory mismatches. It does **not** reconstruct the complete project from the original workbook or independently certify a running Power BI model. Earlier independent Python reconciliation and saved-visual static checks are documented; live dashboard testing is reported by the project author, and complete current-version model equivalence remains unverified. See [QA scope](QUALITY_ASSURANCE_SUMMARY.md).
 
 ## Source, limitations and attribution
 
