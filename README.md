@@ -10,6 +10,28 @@ This project uses **541,909 historical transaction records** to produce a **four
 
 > **Disclosure:** Willow & Hearth Retail and Sarah Mitchell are fictional. This is a self-directed simulation using public historical data, **not** a paid client engagement or evidence of implemented commercial results. The simulated handoff was internally approved on November 17, 2026, with eight unresolved exceptions and documented analytical limitations.
 
+## Dashboard previews
+
+### Executive Sales Overview
+
+Historical candidate merchandise sales, cancellations, monthly trends, and geographic performance. The financial values are not accounting-certified revenue or profit.
+
+![P001 Executive Sales Overview](assets/P001_Executive_Overview.png)
+
+### Customer Analytics
+
+Identified purchasing customers, observed repeat purchasing, and the value of sales without verified customer identifiers. Repeat purchasing is not formal customer retention.
+
+![P001 Customer Analytics](assets/P001_Customer_Analytics.png)
+
+### Product Performance
+
+Product rankings by candidate sales value and merchandise units, with reporting limitations documented alongside the visuals.
+
+![P001 Product Performance](assets/P001_Product_Performance.png)
+
+The complete four-page Power BI report also includes a Sales Performance page, which is not reproduced in this preview set. See the [portfolio case study PDF](assets/P001_Portfolio_Case_Study_FINAL.pdf) for additional presentation and findings.
+
 ## The business questions
 
 - **Sales performance:** Did candidate merchandise sales change because of order count, average order value, or both?

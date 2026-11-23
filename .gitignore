@@ -17,3 +17,8 @@
 !/scripts/
 /scripts/*
 !/scripts/verify_fact_kpis.py
+
+# Approved public P001 dashboard screenshots
+!/assets/P001_Executive_Overview.png
+!/assets/P001_Customer_Analytics.png
+!/assets/P001_Product_Performance.png
